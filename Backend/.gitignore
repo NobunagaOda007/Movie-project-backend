@@ -1,6 +1,8 @@
 
-
+#dependencies
 node_modules
+
+
 .DS_Store
 dist-ssr
 coverage
