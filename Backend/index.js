@@ -285,10 +285,10 @@ app.post('/reserve',async (req,res) => {
 
 // if(process.env.NODE_ENV === 'production'){
     //static folder
-    app.use(express.static(path.resolve('dist/')));
+//    app.use(express.static(path.resolve('dist/')));
 
     //handle SPA
-    app.get(/.*/,(req,res) => res.sendFile(path.resolve('dist/index.html')));
+ //   app.get(/.*/,(req,res) => res.sendFile(path.resolve('dist/index.html')));
 // }  C:\Users\LEO\Movie-project\dist\index.html
 
 const port = process.env.PORT || 5000;
